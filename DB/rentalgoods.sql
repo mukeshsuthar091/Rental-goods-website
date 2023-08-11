@@ -48,8 +48,7 @@ CREATE TABLE `admin_user_info` (
 --
 
 INSERT INTO `admin_user_info` (`sno`, `user_name`, `gender`, `date_of_birth`, `aadhar_card_no`, `address`, `city`, `country`, `postcode`, `mobile_no`, `email`, `password`, `timestamp`) VALUES
-(2, 'Admin', 'male', '20/03/2001', 849562316412, 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, porro. Nobis labore ad atque asperiores magnam illum natus sequi inventore voluptas maiores voluptatibus dolorem non exercitationem, ratione reprehenderit ab odit.', 'lknlio', 'lknlni', 94616, 614974913, 'admin@gmail.com', '$2y$10$wud5wJP.e1iGOtu/wk2J4u1Ee4dEPmiQxFYTYN4dZbrMJAfdVhHQu', '2023-05-03 19:51:23'),
-(3, 'Mukesh Suthar', 'Open this ', '01/02/2001', 1499, '232, surbhi vihar society', 'surat', 'gujarat', 395010, 7917929791, 'mukesh@gmail.com', '$2y$10$mMFPAnz/xXjH33u8rfgFBuf4o86Hy5e8OuCPnPquwPF3/dDnXXwtW', '2023-06-17 17:30:07');
+(2, 'Admin', 'male', '20/03/2001', 849562316412, 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, porro. Nobis labore ad atque asperiores magnam illum natus sequi inventore voluptas maiores voluptatibus dolorem non exercitationem, ratione reprehenderit ab odit.', 'lknlio', 'lknlni', 94616, 614974913, 'admin@gmail.com', '$2y$10$wud5wJP.e1iGOtu/wk2J4u1Ee4dEPmiQxFYTYN4dZbrMJAfdVhHQu', '2023-05-03 19:51:23');
 
 -- --------------------------------------------------------
 
@@ -122,10 +121,9 @@ CREATE TABLE `customers` (
 INSERT INTO `customers` (`sno`, `admin_id`, `customer_name`, `customer_email`, `contact_no`, `joining_date_time`) VALUES
 (1, 2, 'ravi', 'ravi@gmail.com', 6281953468, '2023-05-05 19:52:08'),
 (2, 2, 'sunny sigh', 'sunny002@gamil.com', 9481632502, '2023-05-05 19:53:30'),
-(3, 1, 'nikhil khairnar', 'nikhil@gmail.com', 9461587320, '2023-05-05 19:54:24'),
-(4, 2, 'jayshree patil', 'jayshree@gmail.com', 8461957320, '2023-05-05 19:59:43'),
+(3, 1, 'nikhil', 'nikhil@gmail.com', 9461587320, '2023-05-05 19:54:24'),
 (5, 2, 'dixit rajpurohit', 'dixit025@gmail.com', 8495316782, '2023-05-05 20:02:26'),
-(6, 2, 'mukesh suthar', 'mukesh910@gmail.com', 9461325064, '2023-05-05 20:03:11');
+(6, 2, 'mukesh', 'mukesh910@gmail.com', 9461325064, '2023-05-05 20:03:11');
 
 -- --------------------------------------------------------
 
@@ -297,12 +295,7 @@ CREATE TABLE `usersinfo` (
 --
 
 INSERT INTO `usersinfo` (`sno`, `user_name`, `gender`, `date_of_birth`, `aadhar_card_no`, `address`, `city`, `country`, `postcode`, `mobile_no`, `email`, `password`, `timestamp`) VALUES
-(4, 'Mukesh Suthar', 'male', '07/02/2001', 0, '232-surbhi vihar society, oppo. to renuka bhavan, bombay market to punagam road', 'surat', 'india', 395010, 8160814990, 'immukeshsuthar8@gmail.com', '$2y$10$5mYBSxirTkQIvcJ5xkWygeTtAhnk7Ggp06jCnMgdrt5HtvR6vAJXm', '2023-04-30 21:25:53'),
-(5, 'smit unagar', 'male', '07/02/2003', 0, 'khgiugi', 'kugogiu', 'ukgiug', 98956, 989461978, 'smit@gmail.com', '$2y$10$BJTynwLincXqe1I7DO/9JuQC2F9J5pXpI4/h9vqWQP5LtDbg0WBde', '2023-04-30 21:37:53'),
-(10, 'ravi ', 'male', '10/01/2001', 0, 'kyfyfkykj', 'lgululglk', 'lguglkglu', 48468, 94631684, 'ravi@gmail.com', '$2y$10$WwxdQ.FYxhZw80TJwFLvQubX/Ja9781ka0j2gEwauUYX7RFddUc/.', '2023-04-30 22:19:38'),
-(15, 'nikhil khairnar', 'male', '15/08/2002', 6153, '132, mahadev nagar', 'surat', 'india', 395010, 9531946949, 'nikhil123@gmail.com', '$2y$10$TLLZTTxCowTGXRIpFZ257u6YNY5D87QYtGj6OHZAqOXf1izIdP96m', '2023-06-03 10:14:58'),
-(16, 'mukesh suthar', 'male', '02/08/2003', 5494, 'D-21, surbhi vihar society', 'Bardoli', 'india', 395010, 4970654494, 'mukesh@gmail.com', '$2y$10$CL.olxPA1Q8.Z6qaz.YRtu5V8vr10YIPhYYdugg7aaCEMTynDQFPi', '2023-06-26 17:04:34');
-
+(10, 'ravi ', 'male', '10/01/2001', 0, 'kyfyfkykj', 'lgululglk', 'lguglkglu', 48468, 94631684, 'ravi@gmail.com', '$2y$10$WwxdQ.FYxhZw80TJwFLvQubX/Ja9781ka0j2gEwauUYX7RFddUc/.', '2023-04-30 22:19:38');
 --
 -- Indexes for dumped tables
 --
