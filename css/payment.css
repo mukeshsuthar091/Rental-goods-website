@@ -1,0 +1,180 @@
+body {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+main {
+    background-color: #efefef;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: #fff;
+    width: 33%;
+    /* padding: 40px 30px; */
+    border-radius: 10px;
+}
+
+.totalPaymentAmount {
+    background-color: #3488ff;
+    color: #fff;
+    padding: 20px 30px 10px;
+    border-start-end-radius: 10px;
+    border-start-start-radius: 10px;
+}
+
+.totalPaymentAmount p {
+    font-size: 18px;
+}
+
+
+.cardDetails {
+    padding: 20px 30px 35px;
+}
+
+
+.paymentType {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+/* form .paymentType input{
+} */
+
+.paymentTypeDetail label {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.paymentTypeDetail input {
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-family: inherit;
+    border-radius: 5px;
+    border: 1px solid #d4d2d2;
+}
+
+.paymentTypeDetail hr {
+    border: 0;
+    margin: 20px 0;
+    border-top: 1px solid #a09e9e;
+}
+
+.paymentWindow-1 label {
+    display: block;
+}
+
+.paymentWindow-1 input {
+    width: 100%;
+
+}
+
+
+.paymentWindow-2 #CH-name label,
+.paymentWindow-2 #c-number label {
+    display: block;
+}
+
+
+.paymentWindow-2 #CH-name input,
+.paymentWindow-2 #c-number input {
+    width: 100%;
+}
+
+.card-date-cvc {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 0;
+}
+
+/* .card-date-cvc div{
+    width: 47%;
+} */
+
+.card-date-cvc #c-date {
+    width: 60%;
+}
+
+.card-date-cvc #c-cvc {
+    width: 30%;
+}
+
+.card-date-cvc div label {
+    display: block;
+}
+
+.card-date-cvc #c-date input {
+    width: 45%;
+    margin-right: 8px;
+}
+
+.card-date-cvc #c-cvc input {
+    width: 100%;
+}
+
+#payBtn-1,
+#payBtn-2 {
+    width: 100%;
+    font-size: 16px;
+    padding: 8px 25px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #3488ff;
+    color: #fff;
+    cursor: pointer;
+}
+
+#payBtn-1:hover,
+#payBtn-2:hover {
+    background-color: #1c79fc;
+}
+
+
+.hide {
+    display: none;
+}
+
+.paymentSuccess {
+    position: absolute;
+    background: green;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+
+.active.paymentSuccess {
+    display: block;
+}
+
+.paymentSuccess div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.paymentSuccess i {
+    font-size: 120px;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+
+.paymentSuccess p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}

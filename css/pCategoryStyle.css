@@ -1,0 +1,124 @@
+
+.section-p2{
+    padding: 120px 40px;
+}
+
+.product-container{
+    display: flex;
+}
+
+.products-category-list{
+    width: 25%;
+    height: 450px;
+    margin-right: 40px;
+    padding: 20px;
+    border: 1px solid gray;
+}
+
+.products-category-list h4{
+    font-weight: 600 ;
+    margin-bottom: 20px;
+}
+
+.pc-list{
+    list-style: none;
+    padding: 0;
+}
+
+.pc-list a{
+    text-decoration: none;
+    color: #575866;
+    font-weight: 400;
+}
+
+.pc-list a li{
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.pc-list li:hover{
+    background-color: #0d6efd;
+    color: #fff;
+}
+
+.pc-list li.active-li{
+    background-color: #0d6efd;
+    color: #fff;
+}
+
+
+.products-display{
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.link{
+    text-decoration: none;
+    margin: 10px;
+}
+
+.p-card{
+    /* border: 1px solid #0d6efd; */
+    max-width: 280px;
+    min-height: 420px;
+    padding: 12px;
+    background-color: #f6fff9d8;
+    border-radius: 10px;
+}
+
+.p-card:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.1);
+}
+
+.image img{
+    width: 100%;
+    /* max-width: 250px; */
+    height: 230px;
+    border-radius: 15px;
+}
+
+.image{
+    /* max-width: 260px; */
+    margin: 0 0 18px;
+    text-align: center;
+}
+
+.p-detail .reting i{
+    color: rgb(255, 196, 0);
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.p-detail .reting small{
+    color: #000;
+    font-size: 12px;
+}
+
+.p-detail .p-name{
+    font-size: 15px;
+    color: #0a2647;
+    margin-bottom: 10px;
+}
+
+.p-detail .p-prize{
+    color: #0d6efd;
+    font-size: 18px;
+}
+
+.p-detail .p-info{
+    font-size: 13px;
+    color: rgb(139, 139, 139);
+    margin-bottom: 5px;
+}
+
+.no-result {
+    text-align: center;
+    width: 100%;
+}
+
+.no-result h3{
+    color: red;
+}

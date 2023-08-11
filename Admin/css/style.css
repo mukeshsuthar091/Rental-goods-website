@@ -1,0 +1,673 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 16px;
+    background-color: #f8f9fb;
+}
+
+.section-p1 {
+    padding: 40px 80px;
+}
+
+body {
+    width: 100%;
+}
+
+/* ------------------------ login page ------------------------ */
+
+.login_container {
+    background-color: #001427;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login_container form {
+    box-shadow: 0 0 30px -10px #000;
+    background-color: #041C32;
+    color: #fff;
+    border-radius: 5px;
+    padding: 40px;
+}
+
+.top_side {
+    text-align: center;
+}
+
+.top_side i {
+    color: #e4a651;
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+.top_side h2 {
+    color: #0b5577;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.top_side p {
+    color: #d4d4d4;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.bottom_side div {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+
+.bottom_side div label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.bottom_side div input {
+    background-color: #041C32;
+    color: #fff;
+    width: 100%;
+    padding: 5px 10px;
+    border: none;
+    border-bottom: 1px solid #86849e;
+    outline: none;
+}
+
+.bottom_side div input:focus {
+    border-bottom: 1px solid #f5d2a1;
+}
+
+.bottom_side div i {
+    font-size: 20px;
+    position: absolute;
+    bottom: 15px;
+    right: 0;
+}
+
+.bottom_side div input:focus+i {
+    color: #f5d2a1;
+}
+
+.option_link {
+    font-size: 13px;
+    margin: 20px 0;
+}
+
+.option_link_2 {
+    font-size: 13px;
+    margin: 10px 0 20px;
+}
+
+.option_link a,
+.option_link_2 a{
+    text-decoration: none;
+}
+
+.bottom_side button {
+    background-color: #ECB365;
+    color: #041C32;
+    margin-top: 10px;
+    font-weight: 500;
+    border: none;
+}
+
+
+.bottom_side button:hover{
+    background-color: #e0952c;
+    color: #041C32;
+    border: none;
+}
+
+/* ------------------- signUp page ---------------------- */
+
+.signUp_container {
+    background-color: #001427;
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 0;
+}
+
+.signUp_container form {
+    box-shadow: 0 0 30px -10px #000;
+    background-color: #041C32;
+    color: #fff;
+    width: 55%;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.top_container {
+    text-align: center;
+}
+
+.top_container i {
+    background-color: #ECB365;
+    color: #041C32;
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.top_container h2 {
+    color: #0b5577;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+
+.bottom_container div {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+
+.bottom_container div label {
+    display: block;
+    margin-bottom: 2px;
+}
+
+.bottom_container div input {
+    background-color: #041C32;
+    color: #fff;
+    width: 100%;
+    padding: 5px 10px;
+    border: none;
+    border-bottom: 1px solid #86849e;
+    outline: none;
+    font-size: 16px;
+}
+
+.bottom_container div input:focus {
+    border-bottom: 1px solid #ECB365;
+}
+
+.bottom_container .option {
+    margin: 30px 0;
+}
+
+.bottom_container div select {
+    background-color: #041C32;
+    color: #fff;
+    margin: 0 20px;
+    padding: 2px 12px;
+    border: 1px solid #86849e;
+    border-radius: 5px;
+    font-size: 14px;
+    
+}
+
+.bottom_container div select option{
+    font-size: 14px;
+}
+
+.bottom_container button {
+    background-color: #ECB365;
+    color: #041C32;
+    font-weight: 500;
+    border: none;
+    margin-top: 10px;
+    font-size: 17px;
+    padding: 10px 30px;
+}
+
+.bottom_container button:hover{
+    background-color: #e0952c;
+    color: #041C32;
+    border: none;
+}
+
+/*------------------------ main container --------------------- */
+
+#main{
+    width: 100%;
+    display: flex;
+    position: relative;
+    background-color: #f8f9fb;
+}
+
+.right_container{
+    width: 100%;
+    padding: 0 50px 30px 310px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 0 40px;
+}
+
+.header h2{
+    margin: 0;
+}
+
+
+/* -------- jQuery ids name in jQuery datatables library -------- */
+#MyTable_length,
+#MyTable_filter{
+    margin-bottom: 10px;
+}
+
+
+/*------------------------ sideMenu --------------------- */
+
+.menu_container{
+    background-color: #031627;
+    color: #DDDDDD;
+    min-width: 200px;
+    width: 260px;
+    min-height: 100vh;
+    padding: 40px 0 ;
+    position: fixed;
+    z-index: 999;
+}
+
+
+.sideMenu{
+    
+    list-style: none;
+    padding: 0;
+}
+
+.sideMenu li{
+    text-align: center;
+    border-bottom: 1px solid #86849e;
+}
+
+.sideMenu li a{
+    text-decoration: none;
+    color: #DDDDDD;
+    font-size: 16px;
+    display: block;
+    padding: 18px 0;
+}
+
+.sideMenu li a:hover{
+    background-color: #0b5577;
+}
+
+
+.sideMenu .profile-img{
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 30px;
+}
+
+.sideMenu .profile-img i{
+    background-color: #FCDAB7;
+    color: #001427;
+    font-size: 55px;
+    border-radius: 50%;
+    padding: 7px;
+    margin-bottom: 10px;
+}
+
+
+/* ----------------- dashboard ------------------ */
+
+#main-content{
+    margin-top: 100px;
+}
+
+#main-content .d-card{
+    height: 210px;
+    background-color: #031627;
+    color: #DDDDDD;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+#main-content .d-card img{
+    margin-bottom: 15px;
+}
+
+#main-content .d-card h4{
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+
+#main-content .d-card p{
+    color: #e4a651;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+
+/* ----------------- customer ------------------ */
+
+#customer_info_table {
+    overflow-x: auto;
+}
+
+#customer_info_table table {
+    width: 100%;
+    table-layout: fixed;
+    white-space: pre-wrap;
+    border: 1px solid #041C32;
+    border-collapse: collapse;
+    border-radius: 5px;
+}
+
+#customer_info_table table thead,
+#customer_info_table table tbody{
+    border: 1px solid #041C32;
+    border-collapse: collapse;
+}
+
+#customer_info_table table td{
+    text-align: center;
+}
+
+#customer_info_table table td:nth-child(1) {
+    width: 100px;
+}
+
+#customer_info_table table td:nth-child(4) {
+    width: 180px;
+}
+
+#customer_info_table table td:nth-child(5) {
+    width: 220px;
+}
+
+
+#customer_info_table table thead td {
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 15px 0;
+    color: #f5d2a1;
+    background-color: #041C32; 
+}
+
+#customer_info_table table tbody tr td {
+    color: #041C32;
+    font-size: 15px;
+    padding: 10px 0;
+    /* padding-top: 10px; */
+    /* padding-bottom: 10px; */
+}
+
+#customer_info_table table tbody tr:nth-child(even){
+    background-color: #f5d2a1;
+    color: #041C32;
+}
+
+
+/* ----------------- category ------------------ */
+
+#category_table {
+    overflow-x: auto;
+}
+
+#category_table table {
+    width: 99%;
+    table-layout: fixed;
+    border: 1px solid #041C32;
+    border-collapse: collapse;
+}
+
+#category_table table thead,
+#category_table table tbody{
+    border: 1px solid #041C32;
+    border-collapse: collapse;
+}
+
+#category_table table td{
+    text-align: center;
+}
+
+#category_table table td:nth-child(1) {
+    width: 130px;
+}
+
+#category_table table td:nth-child(2) {
+    width: 350px;
+    text-transform: capitalize;
+}
+
+
+#category_table table thead td {
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 15px 0;
+    color: #f5d2a1;
+    background-color: #041C32; 
+}
+
+#category_table table tbody tr td {
+    color: #041C32;
+    font-size: 15px;
+    padding: 8px 0;
+}
+
+#category_table table tbody tr td .delete-btn{
+    font-size: 14px;
+    padding: 5px 15px;
+}
+
+#category_table table tbody tr:nth-child(even){
+    background-color: #f5d2a1;
+    color: #041C32;
+}
+
+
+.add_category .add-category-btn{
+    background-color: #064663;
+    color: #fff;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    margin-left: 2px;
+}
+
+.add_category .add-category-btn:hover{
+    background-color: #041C32;
+    color: #fff;
+}
+
+
+/* ----------------- view products ------------------ */
+
+#product_info_table {
+    overflow-x: scroll;
+}
+
+#product_info_table table {
+    width: 100%;
+    table-layout: fixed;
+    white-space: pre-wrap;
+    border: 1px solid #041C32;
+    border-collapse: collapse;
+    border-radius: 5px;
+}
+
+#product_info_table table thead,
+#product_info_table table tbody{
+/* #product_info_table table thead tr, */
+/* #product_info_table table tbody tr td{ */
+    border: 1px solid #041C32;
+    border-collapse: collapse;
+}
+
+#product_info_table table tbody tr{
+    height: 100px;
+}
+
+#product_info_table table td{
+    text-align: center;
+}
+
+#product_info_table table td:nth-child(1) {
+    width: 90px;
+}
+
+#product_info_table table td:nth-child(2) {
+    width: 200px;
+}
+
+#product_info_table table td:nth-child(3) {
+    width: 150px;
+}
+
+#product_info_table table td:nth-child(4) {
+    width: 220px;
+}
+
+#product_info_table table td:nth-child(5) {
+    width: 330px;
+    padding: 8px 10px;
+    text-align: left;
+}
+
+#product_info_table table td:nth-child(6) {
+    width: 170px;
+}
+
+#product_info_table table td:nth-child(7) {
+    width: 130px;
+}
+
+#product_info_table table td:nth-child(8) {
+    width: 150px;
+    white-space: normal;
+}
+
+#product_info_table table td:nth-child(8) form{
+    display: inline;
+}
+
+/* #product_info_table tbody td:nth-child(2), */
+#product_info_table tbody td:nth-child(5){
+    display: table-caption;
+    height: 150px;
+    overflow-y: scroll;
+    align-items: center;
+    border: none;
+    margin-bottom: 10px;
+}
+
+#product_info_table table thead td {
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 15px 0;
+    color: #f5d2a1;
+    background-color: #041C32; 
+}
+
+#product_info_table table tbody tr td {
+    color: #041C32;
+    font-size: 15px;
+    padding: 10px 0;
+    /* padding-top: 10px; */
+    /* padding-bottom: 10px; */
+}
+
+#product_info_table table tbody tr:nth-child(even){
+    background-color: #f5d2a1;
+    color: #041C32;
+}
+
+
+/* ----------------------- add products --------------------- */
+
+#product_upload_form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#product_upload_form form{
+    background-color: #fff;
+    width: 70%;
+    border-radius: 10px;
+    /* border: 1px solid #86849e; */
+    padding: 40px 20px;
+}
+
+#product_upload_form form div{
+    margin-bottom: 10px;
+}
+
+#product_upload_form form label{
+    display: block;
+    color: #041C32;
+    margin-bottom: 5px;
+}
+
+#product_upload_form form input,
+#product_upload_form form textarea{
+    width: 100%;
+    font-size: 15px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #9a98b8;
+    outline: none;
+}
+
+#product_upload_form form input:focus,
+#product_upload_form form textarea:focus{
+    border: 1px solid #3769f1;
+}
+
+#product_upload_form form button{
+    margin-top: 15px;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+
+/* ----------------------- profile --------------------- */
+
+#profile_details{
+    background-color: #fff;
+    border: 1px solid #9a98b8;
+    border-radius: 15px;
+    padding: 40px 30px 30px;
+}
+
+#profile_details div{
+    display: flex;
+    /* align-items: center; */
+    margin-bottom: 12px;
+}
+
+#profile_details h6{
+    display: inline-block;
+    width: 20%;
+    margin: 0;
+}
+
+#profile_details span{
+    display: inline-block;
+    margin: 0 15px 0 0;
+}
+
+
+#profile_details p{
+    display: inline-block;
+    width: 75%;
+    margin: 0;
+    font-size: 15px;
+}
+
+
