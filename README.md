@@ -73,4 +73,4 @@ After Starting Apache and MySQL in XAMPP, follow the following steps.
 
 After Creating Database,
 
-- 9th Step: Open a browser and go to the URL “http://localhost/RentalGoods/ ”
+- 9th Step: Open a browser and go to the URL “http://localhost/Rental-goods-website-main/ ”
